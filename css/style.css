@@ -93,3 +93,38 @@ main {
     float: left;
     border: 1px solid black;
 }
+
+/* fine main */
+
+/* inizio section bianco */
+
+.top-box-bianco {
+    height: 35%;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.box-bianco-left {
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: yellow;
+}
+
+.box-bianco-right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: red;
+}
+
+.bottom-box-bianco {
+    height: 65%;
+    border: 1px solid black;
+}
+ /* inzio footer */
+
+ footer {
+     background-color: #32495b;
+ }
