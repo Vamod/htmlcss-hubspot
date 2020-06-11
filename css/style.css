@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    /*da cancellare */
+    height: 500px;
+}
+
+/* inizio header */
+
+.top-header {
+    height: 70px;
+    background-color: #f4f9fd;
+}
+
+.main-bar {
+    height: 70px;
+    background-color: white;
+}
+
+.banner {
+    position: relative;
+    background-color: #fff2ef;
+}
+
+.jumbotron {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+/* fine header */
+
+/* inizio main */
+
+main {
+    background-color: #f4f9fd;
+}
+
+.box {
+    height: 50%;
+    border: 1px solid black;
+}
+
+.card {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.azzurro {
+    background-color: #00b1b1;
+}
+
+.azzurro-text {
+    height: 150px;
+    border: 1px solid black;
+}
+
+.icons-box {
+    height: 350px;
+    border: 1px solid black;
+}
+
+.first-row, .second-row {
+    height: 50%;
+    border: 1px solid black;
+}
+
+.icon-box {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+}
