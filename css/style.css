@@ -24,8 +24,11 @@
 
 .fixed-bar {
     height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-color: #f4f9fd;
-    /* position: fixed; */
+    position: fixed;
     z-index: 1;
     text-transform: capitalize;
     line-height: 70px;
@@ -56,6 +59,7 @@
 
 .main-bar {
     height: 70px;
+    margin-top: 70px;
     background-color: white;
 }
 
@@ -186,6 +190,7 @@ main {
 
 .azzurro {
     background-color: #00b1b1;
+    text-align: center;
 }
 
 .azzurro-text {
@@ -194,6 +199,7 @@ main {
 }
 
 .icons-box {
+    position: relative;
     height: 350px;
     border: 1px solid black;
 }
@@ -208,6 +214,15 @@ main {
     height: 100%;
     float: left;
     border: 1px solid black;
+    position: relative;
+}
+
+.icon-box-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 /* fine main */
