@@ -39,6 +39,9 @@
     display: inline-block;
 }
 
+.lang-choose a, .contact-sales a {
+    text-decoration: none;
+}
 .contact-sales {
     border-left: 1px solid gray;
 }
@@ -159,6 +162,10 @@ main {
     display: inline-block;
 }
 
+.card-container {
+    height: 100%;
+    padding: 30px;
+}
 
 .card {
     width: 33.3333%;
@@ -166,6 +173,15 @@ main {
     text-align: center;
     height: 100%;
     border: 1px solid black;
+}
+
+.card img {
+    height: 150px;
+}
+
+.card ul {
+    list-style: none;
+    text-align: left;
 }
 
 .azzurro {
