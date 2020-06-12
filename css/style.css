@@ -12,7 +12,7 @@
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 
@@ -105,14 +105,14 @@ main {
     border: 1px solid black;
 }
 
-.box-bianco-left {
+.top-box-bianco-left {
     width: 40%;
     height: 100%;
     float: left;
     background-color: yellow;
 }
 
-.box-bianco-right {
+.top-box-bianco-right {
     width: 50%;
     height: 100%;
     float: right;
@@ -123,8 +123,63 @@ main {
     height: 65%;
     border: 1px solid black;
 }
+
+.bottom-box-bianco-left {
+    width: 45%;
+    height: 100%;
+    float:left;
+    background-color: blue;
+}
+
+.bottom-box-bianco-right {
+    width: 30%;
+    height: 100%;
+    float:right;
+    background-color: green;
+}
  /* inzio footer */
 
  footer {
      background-color: #32495b;
  }
+
+.top-footer {
+    height: 65%;
+    border: 1px solid black;
+}
+
+
+.top-footer-box {
+    width: 25%;
+    height: 250px;
+    float: left;
+    border: 1px solid yellow;
+}
+
+.language {
+    height: 100px;
+}
+
+.language hr {
+    background-color: black;
+}
+
+.footer-bottom {
+    height:150px;
+}
+
+.footer-bottom-left {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: purple;
+
+}
+
+.footer-bottom-right {
+    width: 25%;
+    height: 100%;
+    float: right;
+    background-color: pink;
+
+}
