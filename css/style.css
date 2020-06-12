@@ -20,28 +20,81 @@
     height: 500px;
 }
 
-/* inizio header */
+/* inizio fixed bar */
 
-.top-header {
+.fixed-bar {
     height: 70px;
     background-color: #f4f9fd;
+    /* position: fixed; */
+    z-index: 1;
+    text-transform: capitalize;
+    line-height: 70px;
 }
+
+.fixed-bar-left {
+    float: left;
+}
+
+.lang-choose, .fa-chevron-down, .contact-sales {
+    display: inline-block;
+}
+
+.contact-sales {
+    border-left: 1px solid gray;
+}
+
+.fixed-bar-right {
+    float: right;
+}
+
+/* fine fixed bar */
+
+/* inizio header */
 
 .main-bar {
     height: 70px;
     background-color: white;
 }
 
+#logo {
+    float: left;
+    padding: 20px 0;
+}
+
+nav ul {
+    float: right;
+    height: 100%;
+    line-height: 70px;
+
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    text-transform: capitalize;
+    padding: 0 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
 .banner {
     position: relative;
     background-color: #fff2ef;
+    background-image: url('../img/bg-jumbotron.png');
+    background-size: cover;
+    height: 695px;
 }
 
+
 .jumbotron {
+    width: 30%;
+    margin-top: 30px;
     position: absolute;
-    width: 50%;
-    top: 50%;
-    transform: translateY(-50%);
+
+
 }
 
 
@@ -59,6 +112,53 @@ main {
     height: 50%;
     border: 1px solid black;
 }
+
+.top.box {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top.box img {
+    height: 150px;
+}
+
+.bottom.box {
+    background-color: white;
+
+}
+
+.box-bottom-left {
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.box-bottom-left img {
+    height: 150px;
+}
+
+.box-bottom-right {
+    width: 75%;
+    height: 100%;
+    float: right;
+}
+
+.box-bottom-right-text {
+    width: 90%;
+
+}
+
+.box-bottom-right-text ul {
+    list-style: none;
+
+}
+
+.box-bottom-right-text li {
+    display: inline-block;
+}
+
 
 .card {
     width: 33.3333%;
@@ -156,11 +256,11 @@ main {
     border: 1px solid yellow;
 }
 
-.language {
+footer.languages {
     height: 100px;
 }
 
-.language hr {
+.languages hr {
     background-color: black;
 }
 
