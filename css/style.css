@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after {
@@ -244,8 +247,7 @@ main {
 .top-box-bianco {
     height: 35%;
     width: 90%;
-    margin: 0 auto;
-    border: 1px solid black;
+    margin: 20px auto 30px;
 }
 
 .top-box-bianco-left {
@@ -271,6 +273,7 @@ main {
 .bottom-box-bianco-left {
     width: 45%;
     height: 100%;
+    padding: 50px 0px;
     float:left;
     background-color: blue;
 }
@@ -279,15 +282,23 @@ main {
     width: 30%;
     height: 100%;
     float:right;
-    background-color: green;
 }
 
 .partner {
     float:left;
+    height: 50px;
+    line-height: 50px;
+
 }
 
 .partner img {
     width: 120px;
+    padding: 0 10px;
+
+}
+
+.bottom-box-bianco-right img {
+    width: 350px;
 }
  /* inzio footer */
 
