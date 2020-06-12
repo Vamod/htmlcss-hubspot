@@ -17,7 +17,7 @@
     margin: 0 auto;
 
     /*da cancellare */
-    height: 500px;
+    /* height: 500px; */
 }
 
 /* inizio fixed bar */
@@ -201,19 +201,31 @@ main {
 .icons-box {
     position: relative;
     height: 350px;
-    border: 1px solid black;
 }
 
 .first-row, .second-row {
     height: 50%;
-    border: 1px solid black;
 }
+
+.first-row {
+    border-bottom: 1px solid white;
+}
+
+.icon-box:nth-child(2), .icon-box:nth-child(6) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.icon-box:nth-child(4), .icon-box:nth-child(8) {
+    border-left: 1px solid white;
+}
+
+
 
 .icon-box {
     width: 25%;
     height: 100%;
     float: left;
-    border: 1px solid black;
     position: relative;
 }
 
@@ -237,18 +249,19 @@ main {
 }
 
 .top-box-bianco-left {
-    width: 40%;
+    width: 15%;
     height: 100%;
     float: left;
-    background-color: yellow;
+    text-align: center;
 }
 
 .top-box-bianco-right {
     width: 50%;
     height: 100%;
     float: right;
-    background-color: red;
 }
+
+
 
 .bottom-box-bianco {
     height: 65%;
@@ -267,6 +280,14 @@ main {
     height: 100%;
     float:right;
     background-color: green;
+}
+
+.partner {
+    float:left;
+}
+
+.partner img {
+    width: 120px;
 }
  /* inzio footer */
 
