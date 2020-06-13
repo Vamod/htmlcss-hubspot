@@ -91,11 +91,12 @@ nav a {
 }
 
 .banner {
+    height: 695px;
     position: relative;
     background-color: #fff2ef;
     background-image: url('../img/bg-jumbotron.png');
     background-size: cover;
-    height: 695px;
+
 }
 
 
@@ -103,11 +104,11 @@ nav a {
     width: 30%;
     margin-top: 30px;
     position: absolute;
-
-
 }
 
-
+.jumbotron p:first-child {
+    font-size: 1px;
+}
 
 
 /* fine header */
@@ -120,7 +121,7 @@ main {
 
 .box {
     height: 50%;
-    border: 1px solid black;
+
 }
 
 .top.box {
@@ -267,7 +268,6 @@ main {
 
 .bottom-box-bianco {
     height: 65%;
-    border: 1px solid black;
 }
 
 .bottom-box-bianco-left {
@@ -275,7 +275,6 @@ main {
     height: 100%;
     padding: 50px 0px;
     float:left;
-    background-color: blue;
 }
 
 .bottom-box-bianco-right {
@@ -316,33 +315,55 @@ main {
     width: 25%;
     height: 250px;
     float: left;
-    border: 1px solid yellow;
+
 }
 
-footer.languages {
-    height: 100px;
+.top-footer-box ul {
+    list-style: none;
+
 }
 
-.languages hr {
-    background-color: black;
+.top-footer-box a {
+        text-decoration: none;
+        color: #cbd6da;
 }
 
-.footer-bottom {
-    height:150px;
+.footer-loghi a {
+    padding-right: 25px;
 }
+
+footer .lingue {
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-bottom: 1px solid #cbd6da;
+}
+
+.lingue ul {
+    height: 100%;
+}
+
+.lingue li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.lingue a {
+    text-decoration: none;
+    color: #cbd6da;
+}
+
 
 .footer-bottom-left {
     width: 20%;
     height: 100%;
     float: left;
-    background-color: purple;
 
 }
 
 .footer-bottom-right {
     width: 25%;
-    height: 100%;
     float: right;
-    background-color: pink;
+    text-align: right;
 
 }
