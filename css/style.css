@@ -292,6 +292,7 @@ main {
     text-align: center;
     height: 100%;
     margin-top: 30px;
+    margin-bottom: 150px;
     background-color: white;
     border-radius: 5px;
 }
@@ -330,6 +331,8 @@ main {
 .card p:nth-child(5) {
     text-transform: uppercase;
     margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
 
 }
 
@@ -349,14 +352,35 @@ main {
     margin-top: 20px;
 }
 
-.azzurro {
+/* fine main */
+
+/* inizio section azzurro */
+
+section.azzurro {
     background-color: #00b1b1;
     text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.azzurro > .container {
+    padding: 100px 0;
 }
 
 .azzurro-text {
     height: 150px;
-    border: 1px solid black;
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 100px;
+
+}
+
+.azzurro-text h2 {
+    margin-bottom: 20px;
+}
+
+.azzurro p {
+    line-height: 25px;
 }
 
 .icons-box {
@@ -395,10 +419,17 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
-/* fine main */
+.icon-box-container h2 {
+    font-size: 40px;
+}
+
+.icon-box-container p {
+    font-size: 12px;
+}
+
+/* fine section azzurro */
 
 /* inizio section bianco */
 
@@ -406,22 +437,38 @@ main {
     height: 35%;
     width: 90%;
     margin: 20px auto 30px;
+    color: #33475b;
 }
 
 .top-box-bianco-left {
-    width: 15%;
+    width: 22%;
     height: 100%;
     float: left;
-    text-align: center;
+    text-align: left;
+}
+
+.top-box-bianco-left h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.top-box-bianco-left p {
+    line-height: 30px;
 }
 
 .top-box-bianco-right {
-    width: 50%;
+    width: 60%;
     height: 100%;
     float: right;
 }
 
+.top-box-bianco-right .partner:nth-child(3), .top-box-bianco-right .partner:nth-child(4) {
+    padding-top: 7px;
+}
 
+.top-box-bianco-right .partner:nth-child(7) {
+    padding-top: 50px;
+}
 
 .bottom-box-bianco {
     height: 65%;
@@ -431,6 +478,7 @@ main {
     width: 45%;
     height: 100%;
     padding: 50px 0px;
+    color: #33475b;
     float:left;
 }
 
@@ -444,11 +492,14 @@ main {
     float:left;
     height: 50px;
     line-height: 50px;
+}
 
+.partner-first-row {
+    margin-bottom: 40px;
 }
 
 .partner img {
-    width: 120px;
+    width: 130px;
     padding: 0 10px;
 
 }
