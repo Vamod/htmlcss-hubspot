@@ -18,9 +18,6 @@ body {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-
-    /*da cancellare */
-    /* height: 500px; */
 }
 
 /* inizio fixed bar */
@@ -41,20 +38,60 @@ body {
     float: left;
 }
 
-.lang-choose, .fa-chevron-down, .contact-sales {
-    display: inline-block;
+.fixed-bar-left ul {
+    list-style: none;
 }
 
-.lang-choose a, .contact-sales a {
+.fixed-bar-left li {
+    display: inline-block;
+    padding: 0 10px;
+
+}
+
+.fixed-bar-left a {
     text-decoration: none;
+    color: #3d4b5b;
+
 }
-.contact-sales {
-    border-left: 1px solid gray;
+
+#trattino {
+    border-right: 1px solid  #3d4b5b;
+    padding-right: 25px;
 }
+
+/* .fixed-bar-left li:first-child::before {
+    content:"/f7a2";
+} */
+
 
 .fixed-bar-right {
     float: right;
 }
+
+.fa-search {
+    color: #25b1c7
+}
+
+.btn-small {
+    padding: 8px 15px;
+    border-radius: 5px;
+
+}
+
+.btn-small.login {
+    background-color: white;
+    color: #ff7a59;
+    border: 1px solid #ff7a59;
+    margin-left: 20px;
+}
+
+.btn-small.get-free {
+    background-color: #ff7a59;
+    color: white;
+    border: 1px solid #ff7a59;
+    margin-left: 10px;
+}
+
 
 /* fine fixed bar */
 
@@ -88,6 +125,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+    color:  #3d4b5b;
 }
 
 .banner {
