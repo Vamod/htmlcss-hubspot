@@ -421,8 +421,19 @@ section.azzurro {
     transform: translate(-50%, -50%);
 }
 
+
 .icon-box-container h2 {
     font-size: 40px;
+    position: relative;
+}
+
+.icon-box-container h2::after {
+    content: '+';
+    font-weight: lighter;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .icon-box-container p {
