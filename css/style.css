@@ -8,6 +8,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -85,7 +93,7 @@ body {
     margin-left: 20px;
 }
 
-.get-free {
+.btn-orange {
     background-color: #ff7a59;
     color: white;
     border: 1px solid #ff7a59;
@@ -145,6 +153,7 @@ nav a {
     width: 40%;
     margin-top: 80px;
     position: absolute;
+    color: #33475b;
 }
 
 .jumbotron h1 {
@@ -153,11 +162,11 @@ nav a {
 
 .jumbotron p:first-of-type {
     margin-top: 40px;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 30px;
 }
 
-.btn-big.get-free {
+.btn-big.btn-orange {
     padding: 20px 40px;
     font-size: 19px;
     border-radius: 5px;
@@ -178,6 +187,7 @@ nav a {
 
 main {
     background-color: #f4f9fd;
+    color:#33475b;
 }
 
 .box {
@@ -186,18 +196,33 @@ main {
 }
 
 .top.box {
-    width: 70%;
+    width: 82%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 80px;
 }
 
 .top.box img {
-    height: 150px;
+    height: 200px;
+}
+
+.top.box h2 {
+    margin-bottom: 20px;
+}
+
+.top.box p {
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .bottom.box {
     background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 
+.container-padding {
+    padding: 50px 50px 250px 100px;
 }
 
 .box-bottom-left {
@@ -205,11 +230,14 @@ main {
     height: 100%;
     float: left;
     text-align: center;
+    padding-right: 40px;
 }
 
 .box-bottom-left img {
-    height: 150px;
+    height: 120px;
+    margin-bottom: 50px;
 }
+
 
 .box-bottom-right {
     width: 75%;
@@ -219,7 +247,28 @@ main {
 
 .box-bottom-right-text {
     width: 90%;
+    color: #33475b;
+}
 
+.box-bottom-right-text h4 {
+    margin-bottom: 20px;
+}
+
+.box-bottom-right-text p:first-of-type {
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.box-bottom-right-text p:nth-child(3) {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.line-through {
+    text-decoration: line-through;
+    display: inline-block;
 }
 
 .box-bottom-right-text ul {
@@ -229,28 +278,75 @@ main {
 
 .box-bottom-right-text li {
     display: inline-block;
+    padding-right: 15px;
+    text-transform: capitalize;
+}
+
+.box-bottom-right-text i {
+    color: #ff7a59;
+}
+
+.card {
+    width: calc((100% / 3) - 20px);
+    float: left;
+    text-align: center;
+    height: 100%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card:nth-of-type(2) {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .card-container {
     height: 100%;
-    padding: 30px;
-}
-
-.card {
-    width: 33.3333%;
-    float: left;
-    text-align: center;
-    height: 100%;
-    border: 1px solid black;
+    padding: 40px;
 }
 
 .card img {
     height: 150px;
 }
 
+.card h4 {
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.card p:nth-child(3) {
+    min-height: 130px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+.card hr {
+    color: #808080;
+}
+
+.card p:nth-child(5) {
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
 .card ul {
+    margin-top: 10px;
     list-style: none;
     text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.card i {
+    color: #ff7a59;
+}
+
+.card button {
+    margin-top: 20px;
 }
 
 .azzurro {
