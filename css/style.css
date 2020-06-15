@@ -223,6 +223,7 @@ main {
 
 .container-padding {
     padding: 50px 50px 250px 100px;
+    box-shadow: 0px 10px 35px #aaaaaa;
 }
 
 .box-bottom-left {
@@ -266,6 +267,7 @@ main {
     margin-bottom: 20px;
 }
 
+
 .line-through {
     text-decoration: line-through;
     display: inline-block;
@@ -305,6 +307,7 @@ main {
 .card-container {
     height: 100%;
     padding: 40px;
+    box-shadow: 0px 10px 35px #aaaaaa;
 }
 
 .card img {
@@ -357,7 +360,7 @@ main {
 /* inizio section azzurro */
 
 section.azzurro {
-    background-color: #00b1b1;
+    background-image: linear-gradient(90deg, #00acb5, #00b9a9);
     text-align: center;
     color: white;
     margin-bottom: 100px;
