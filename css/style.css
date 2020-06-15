@@ -492,9 +492,19 @@ section.azzurro {
     padding-left: 20px;
 }
 
-.partner img:nth-child(3) {
-    padding-top: 7px;
+.partner-first-row .partner:nth-child(3) {
+    padding-top: 8px;
 }
+
+.partner-first-row .partner:nth-child(4) {
+    padding-top: 5px;
+}
+
+.partner-second-row .partner:nth-child(1) {
+    padding-top: 5px;
+}
+
+
 
 .bottom-box-bianco {
     height: 65%;
