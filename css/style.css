@@ -241,7 +241,6 @@ nav a {
 .bottom-dropbox-left {
     width: 33.3333%;
     float: left;
-    border: 1px solid black;
 }
 
 .bottom-dropbox-right {
@@ -360,7 +359,7 @@ nav a {
 }
 
 #about {
-    /* display: none; */
+    display: none;
     width: 600px;
     background-color: white;
     border: 1px solid #cbd6e2;
@@ -837,6 +836,14 @@ section.azzurro {
     font-size: 14px;
     line-height: 30px;
     margin-top: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.show:active .hide {
+    display: block;
 }
 
 .capitalize {
