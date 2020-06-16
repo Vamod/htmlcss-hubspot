@@ -68,10 +68,38 @@ h4 {
     padding-right: 15px;
 }
 
-/* .fixed-bar-left li:first-child::before {
-    content:"/f7a2";
-} */
+#choose {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    width: 115px;
+    background: white;
+    box-shadow: 0px 10px 35px #aaaaaa;
+    line-height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
 
+#choose li{
+    width: 100%;
+}
+
+.show:hover #choose {
+    display: block;
+}
+
+#choose:after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    top: -8px;
+    right: 17px;
+    transform: rotate(45deg);
+}
 
 .fixed-bar-right {
     float: right;
@@ -113,6 +141,7 @@ h4 {
     height: 70px;
     margin-top: 70px;
     background-color: white;
+    position: relative;
 }
 
 #logo {
@@ -124,7 +153,6 @@ nav ul {
     float: right;
     height: 100%;
     line-height: 70px;
-
 }
 
 nav li {
@@ -132,12 +160,27 @@ nav li {
     list-style: none;
     text-transform: capitalize;
     padding: 0 10px;
-
 }
 
 nav a {
     text-decoration: none;
     color:  #3d4b5b;
+}
+
+#software {
+    display: none;
+    width: 900px;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+    position: absolute;
+    right: 130px;
+    top: 60px;
+    z-index: 1;
+}
+
+.show:hover #software {
+    display: block;
 }
 
 .banner {
