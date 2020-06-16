@@ -172,7 +172,7 @@ nav a {
 
 #software {
     display: none;
-    width: 900px;
+    width: 950px;
     background-color: white;
     border: 1px solid #cbd6e2;
     position: absolute;
@@ -218,6 +218,12 @@ nav a {
     border-bottom: 1px solid #cbd6e2;
 }
 
+.middle-dropbox {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cbd6e2;
+}
+
 .middle-dropbox-card {
     width: 33.3333%;
     background-color: white;
@@ -256,14 +262,60 @@ nav a {
     border-color: #00bda5
 }
 
+#resources {
+    display: none;
+    width: 950px;
+    background-color: white;
+    border: 1px solid #cbd6e2;
+    position: absolute;
+    right: 130px;
+    top: 60px;
+    z-index: 3;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 35px #aaaaaa;
+}
+
+.show:hover #resources {
+    display: block;
+}
+
+#resources:after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    top: -8px;
+    right: 200px;
+    transform: rotate(45deg);
+    z-index: 2;
+    border-top: 1px solid #cbd6e2;
+    border-left: 1px solid #cbd6e2;
+}
+
+.top-resources {
+    padding-bottom: 10px;
+}
+
+.middle-resources {
+    padding: 10px 0;
+    border-top: 1px solid #cbd6e2;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.bottom-resources {
+    padding-top: 10px;
+}
+
 .banner {
     height: 695px;
     position: relative;
     background-color: #fff2ef;
     background-image: url('../img/bg-jumbotron.png');
     background-size: cover;
-
 }
+
 
 
 .jumbotron {
