@@ -79,6 +79,7 @@ h4 {
     line-height: 30px;
     padding: 10px;
     border-radius: 5px;
+    border-color: #cbd6e2;
     font-size: 14px;
 }
 
@@ -99,6 +100,8 @@ h4 {
     top: -8px;
     right: 17px;
     transform: rotate(45deg);
+    border-top: 1px solid #cbd6e2;
+    border-left: 1px solid #cbd6e2;
 }
 
 .fixed-bar-right {
@@ -170,17 +173,87 @@ nav a {
 #software {
     display: none;
     width: 900px;
-    height: 200px;
-    background-color: orange;
-    border: 1px solid black;
+    background-color: white;
+    border: 1px solid #cbd6e2;
     position: absolute;
     right: 130px;
     top: 60px;
-    z-index: 1;
+    z-index: 3;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 35px #aaaaaa;
+}
+
+#software:after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    top: -8px;
+    right: 398px;
+    transform: rotate(45deg);
+    z-index: 2;
+    border-top: 1px solid #cbd6e2;
+    border-left: 1px solid #cbd6e2;
+
 }
 
 .show:hover #software {
     display: block;
+}
+
+#software p, #software span {
+    font-size: 14px;
+}
+
+.dropbox-container {
+    padding: 30px;;
+    text-transform: none;
+}
+
+.top-dropbox {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.middle-dropbox-card {
+    width: 33.3333%;
+    background-color: white;
+    float: left;
+}
+
+.middle-card {
+    padding: 10px 10px 10px 0;
+}
+
+.bottom-dropbox {
+    padding-top: 20px;
+}
+
+.bottom-dropbox-left {
+    width: 33.3333%;
+    float: left;
+}
+
+.bottom-dropbox-right {
+    width: 66.6666%;
+    float: left;
+}
+
+.bottom-dropbox h3 {
+    display: inline-block;
+    font-size: 22px;
+    padding-left: 8px;
+}
+
+.btn-smallest {
+    padding: 4px 7px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00bda5;
+    border-color: #00bda5
 }
 
 .banner {
