@@ -830,7 +830,6 @@ section.azzurro {
 
 .top-footer-box {
     width: 25%;
-    height: 250px;
     float: left;
 
 }
@@ -851,6 +850,8 @@ section.azzurro {
 
 .hide {
     display: none;
+    color: #cbd6da;
+    font-size: 12px;
 }
 
 .show:active .hide {
@@ -881,7 +882,6 @@ section.azzurro {
 }
 
 footer .lingue {
-    margin-top: 150px;
     text-align: center;
     line-height: 70px;
     border-bottom: 1px solid #cbd6da;
